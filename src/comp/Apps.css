@@ -1,0 +1,371 @@
+.header{
+    width: 100%;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    background: rgba(255, 255,255, 0.95);
+   
+    
+   
+  margin-top: 0px;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  .title{
+    padding-top: 100px;
+  }
+  .title-logo{ 
+    display: flex;
+    justify-content: center;
+    font-family:Helvetica;
+    font-style: normal;
+  
+  }
+  .title-name{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    color:#00BFA5;
+    font-size: 23px;
+  }
+  .intro-paragraph{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .par-1{
+    font-family: Helvetica Helvetica,Arial,sans-serif;
+  
+    color: #ABABAB;
+        width: 478px;
+        font-size:15 px;
+        margin-right: 11.5px;
+    }
+  .par-2{
+    font-family: Helvetica Helvetica,Arial,sans-serif;
+  color: #ABABAB;
+    width: 478px;
+    font-size:15 px;
+    margin-left: 11.5px;
+    
+  }
+  .card{
+    display: flex;
+   justify-content: center;
+  
+  
+  }
+  .patients{
+    background:#00B3B4;
+    position: relative;
+    padding: 20px 0px 20px 20px;
+    width: 458px;
+    height: 372px;
+    border-radius: 10px;
+    margin-right: 11.5px;
+    margin-top: 78px;
+    z-index: -1;
+  
+  
+  }
+  .list{
+    display: flex;
+  }
+   
+  .liste-r{
+    width: 175px;
+    height: 46px;
+  
+  }
+  .doctors{  background:#3D83DF;
+    position: relative;
+    margin-top: 78px;
+    padding: 20px;
+    width: 458px;
+    height: 372px;
+    border-radius: 10px;
+    margin-right: 11.5px;
+    z-index: -1;
+  
+  }
+  .intro-card{
+    color: #AFEDD8;
+  }
+  .title-a{
+    color:white;
+  }
+  div.doctors-lap{
+    width:273px;
+    height: 218px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 73px;
+    right: 0;
+  
+    
+    
+   
+    
+  }
+  div.patients-lap{
+  width:273px;
+  height: 218px;
+  overflow: hidden;
+  overflow: hidden;
+  position: absolute;
+  bottom: 73px;
+  right: 0;
+  
+  }
+  
+  .sous-card{display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  } 
+  .sous-titre-sites{margin-top: 22px;
+  padding-left: 144px;
+  
+  width: 650px;
+  font-size: 22px}
+  .sous-titre-text{
+    width: 200px;
+    color: #00B3B4;
+    font-size: 22px
+  }
+  .sites{
+    padding: 20px;
+    text-decoration: none;
+    color: gray;
+  }
+  .aaa{color: #00B3B4; }
+  a.header-menu:hover {
+   color:#00B3B4 ;
+  }
+  .sec-section{
+  background:#DFF9F7;
+  }
+  .title-part-one{
+    margin-left: 436px;
+    color:#00CCB1;
+  
+  }
+  .sous-ti{
+    margin-left: 436px;
+    color: gray;
+  }
+  
+  .back{
+    margin-left: 436px;
+  
+  }
+  .container{
+    display: flex
+  }
+  
+  
+    
+    .part-two{
+        display:flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+    .carte1{
+    
+    background: white;
+    width: 228px;
+    height: 195px;
+    text-align: center;
+  padding: 10px;
+  border-radius: 5px;        
+  margin: 10px 5px;
+  
+  }
+    .carte2{
+        background: white;
+        width: 228px;
+        height: 195px;
+        text-align: center;
+    padding: 10px;
+    border-radius: 5px;  
+    margin: 10px 5px;
+  
+    }
+    .carte3{
+        background: white;
+        width: 228px;
+      height: 195px;
+        text-align: center;
+    padding: 10px;
+    border-radius: 5px; 
+    margin: 10px 5px;
+  
+    }
+    .carte4{
+        margin: 10px 5px;
+        background: white;
+        width: 228px;
+        text-align: center;
+    padding: 10px;
+    border-radius: 5px; 
+    height: 195px;
+  
+    }
+  
+    
+    .part-part1{
+        margin-top: 25px;
+    }
+    .sous-ti{
+        margin-bottom: 76px;
+    }
+  .titre{text-align: center;
+  }
+  .intro-5{
+    display: flex;
+    justify-content: center;
+   
+    height: 91px;
+  }
+  .btn:hover{background: rgb(80, 80, 243)}
+  p.intro-5{
+    text-align: center;
+    width: auto;
+    
+  
+  }
+  
+  .city-line-first{
+    direction: flex;
+    justify-content: space-between;
+  }
+  .city-card{
+    background: white;
+    width: 311px;
+    height: 350px;
+    margin: 20px;
+   
+  
+  }  
+  a.space{
+    padding-left: 5px;
+  }
+  .titre{font-size: 30px;
+  color:#00B3B4}
+  .city-card:hover{  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+  
+  .city{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+    
+  }
+  .line{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .saa{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
+  .btn{
+    background: #1662C6;
+  font-size: 12px;
+    border-radius: 5px;
+    padding:7px;
+    color:white;
+    
+  }
+  .citya{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  a{text-decoration: none;}
+  .tit{
+    color: #00B3B4;
+   
+  }
+  .footer{
+    display:flex;
+    justify-content: center;
+    color: gray;
+   
+    
+  }
+  .vas{
+   text-align: center;
+   
+  
+  
+  
+  }
+  .saa{ border-top: 1px rgb(245, 232, 232) solid;
+  margin-top: 10px;
+  color:gray}
+  ul {
+    list-style-type: none;
+    margin-right: 250px;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(255, 255, 255, alpha);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    color:#00B3B4;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+       
+  
+  
+  
+  
+  
