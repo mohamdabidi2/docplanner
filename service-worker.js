@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/docplanner-react/precache-manifest.ab8a7715747cdaa1bd3995b4caf1cc16.js"
+  "/docplanner/precache-manifest.7dd444c61099ac2f1333b873a3d6eb3f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/docplanner-react/index.html", {
+workbox.routing.registerNavigationRoute("/docplanner/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
